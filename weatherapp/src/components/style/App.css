@@ -1,0 +1,31 @@
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: linear-gradient(90deg,#4F9D6A,#A2E6AF,#4F9D6A);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Maps{
+  width: 50%;
+  height: 400px;
+  z-index: 1;
+}
+
+.App{
+  width: 60vw;
+  height: 100%;
+}
+
+main{
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+}

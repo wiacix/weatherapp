@@ -1,0 +1,37 @@
+.langpicker{
+    width: 180px;
+    height: 40px;
+    background-color: #8c52ff87;
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.select{
+    position: absolute;
+    left: 0;
+    height: 100%;
+    border-radius: 20px;
+    width: 50%;
+    background-color: #00247D;
+    transition: 0.2s;
+}
+
+.pl_img{
+    position: absolute;
+    left: 10px;
+    z-index: 1;
+    height: 60%;
+}
+
+.en_img{
+    position: absolute;
+    height: 60%;
+    right: 10px;
+    z-index: 1;
+}
